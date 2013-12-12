@@ -54,7 +54,7 @@ static NSMutableDictionary *_classForTagNameLookup = nil;
 
 + (DTTextAttachment *)textAttachmentWithElement:(DTHTMLElement *)element options:(NSDictionary *)options
 {
-	[DTTextAttachment textAttachmentWithElement:element andClassName:nil options:options];
+	return [DTTextAttachment textAttachmentWithElement:element andClassName:nil options:options];
 }
 
 + (DTTextAttachment *)textAttachmentWithElement:(DTHTMLElement *)element andClassName:(NSString *)className options:(NSDictionary *)options
