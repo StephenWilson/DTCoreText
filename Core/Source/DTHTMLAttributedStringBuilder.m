@@ -837,7 +837,9 @@
 						}
 					});
 				}
-				
+			}
+			else {
+				_currentTag.didOutput = YES;
 			}
 			
 			while (![_currentTag.name isEqualToString:elementName])
